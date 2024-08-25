@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+	float total,price=100,discount=0,quantity;
+	printf("Enter The Quantity Of Product Purchased");
+	scanf("%f",&quantity);
+	
+	if(quantity>50)
+    discount=10;
+    else
+    discount=5;
+    
+    total=price*quantity;
+    total=total-discount/100*total;
+    
+    printf("Your Total Amount Of Purchase Is=%f",total);
+    return 0;
+} 
