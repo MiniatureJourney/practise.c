@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+	char quantity;
+	printf("Enter The Quantity For Classification-");
+	scanf("%c",&quantity);
+	
+	if(quantity>='0'&& quantity<='9')
+	printf("The quantity is a digit");
+ else if(quantity>='a'&&quantity<='z'||quantity>='A'&&quantity<='Z')
+	printf("The quantity is alphabet");
+	else
+	printf("the quantity is a special symbol");
+	return 0;
+}
