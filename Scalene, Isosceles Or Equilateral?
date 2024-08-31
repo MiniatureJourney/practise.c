@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+	float side1,side2,side3;
+	printf("Enter The Values Of Three Sides Of A Triangle\n");
+	scanf("%f %f %f",&side1,&side2,&side3);
+	printf("The Three Sides Of The Triangle Are=%f\n %f\n %f\n",side1,side2,side3);
+	if(side1==side2&&side2==side3)
+	printf("The Obtained Traingle Is Equilateral");
+	else if(side1==side2||side2==side3||side3==side1)
+	printf("The Obtained Traingle Is Isoceles");
+    else
+    printf("The Triangle Is Scalene");
+    return 0;
+	
+}
