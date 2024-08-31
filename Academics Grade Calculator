@@ -1,0 +1,29 @@
+#include<stdio.h>
+int main()
+{
+	
+float phy,chem,maths,com,bio,total;
+printf("Enter Your Marks Of Each Subject");
+scanf("%f %f %f %f %f",&phy,&chem,&maths,&com,&bio);
+printf("Your Entered Marks Are\n=%f\n %f\n %f\n %f\n %f\n",phy,chem,maths,com,bio);
+total=(phy+chem+maths+com+bio)/500;
+total=total*100;
+
+
+if(total>=90&&total<100)
+printf("Your Grade Is A");
+if(total>=80&&total<90)
+printf("Your Grade Is B");
+if(total>=70&&total<80)
+printf("Your Grade Is C");
+if(total>=60&&total<70)
+printf("Your Grade Is D");
+if(total>=50&&total<60)
+printf("Your Grade Is E");
+if(total<50)
+printf("You Failed");
+return 0;
+}
+
+
+
