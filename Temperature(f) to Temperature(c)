@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+	float F,C;  /*f=farenhite c=Centigrade*/
+	printf("Enter the Temperature(F) ");
+	scanf("%f",&F);
+	printf("Temperature In Farehite is=%f\n",F);
+	
+	C=((10*F)-320)/18;
+	printf("Temperature In Centigrade is=%f",C);
+	return 0;
+}
