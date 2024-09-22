@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+	int p,n;
+	float si,r;
+	printf("enter the value of P\n ,N\n ,R\n ");
+	scanf("%d %d %f",&p,&n,&r);
+	si=(p*n*r)/100;
+	printf("Your simle ionterest calculated is=%f",si);
+	return 0;
+}
