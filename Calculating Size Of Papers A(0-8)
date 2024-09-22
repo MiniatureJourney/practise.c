@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+	 float n,count,An;
+
+	 for(n=0;n<=8;n++)
+	 {
+	
+	 An=(1189/pow(2,n))*841;
+	 printf("The sizes  rare An=%f\n",An);
+}
+	return 0;
+}
+	
+
+	
