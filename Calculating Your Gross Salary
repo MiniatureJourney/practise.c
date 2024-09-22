@@ -1,0 +1,27 @@
+#include<stdio.h>
+int main()
+{
+	float S,DA,HR,OE,G; /*S=salary,DA=Dearness Allowance,OE=Other expenses,G=gross salary*/
+	printf("enter your basic salary");
+	scanf("%f",&S);
+	printf("your basic salary is=%f\n",S);
+	
+printf("enter your dearness allowance"); /*Enter Your DA in % form*/
+	scanf("%f",&DA);
+	DA=(DA/100)*S;
+	printf("Your Dearness allowance is=%f\n",DA);
+	
+	printf("enter your house rent");   /*Enter Your HR in % form*/
+	scanf("%f",&HR);
+	HR=(HR/100)*S;
+	printf("Your House rent is=%f\n",HR);
+	
+	printf("enter other expenses");   /*Enter Your DA in Rs form*/
+	scanf("%f",&OE);
+	printf("Your Other expenses are=%f\n",OE);
+	
+	G=S+DA+HR-OE;
+	printf("Your Gross Salary is=%f",G);
+	return 0;
+}
+	
