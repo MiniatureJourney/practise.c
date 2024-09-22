@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{
+float l,b,r; /*L=lenght of rectangle,B=Breadth of rectangle,r=radius of circle*/
+float ac,ar,pr,cc;/*ac=area od circle,ar=area of rectangle,pr=perimeter of rectangle,cc=circumferance of circle*/
+printf("Enter radius of circle");
+scanf("%f",&r);
+ac=3.14*r*r;
+cc=2*3.14*r;
+printf("Area of circle is=%f\n",ac);
+printf("Circumferance of circle is=%f\n",cc);
+
+printf("Enter length and breadth of rectangle");
+scanf("%f %f",&l,&b);
+ar=l*b;
+pr=2*l*b;
+printf("Area of rectangle is=%f\n",ar);
+printf("perimeter of rectangle is=%f\n",pr);
+
