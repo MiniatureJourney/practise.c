@@ -8,7 +8,7 @@ int main()
 	 {
 	
 	 An=(1189/pow(2,n))*841;
-	 printf("The sizes  rare An=%f\n",An);
+	 printf("The sizes  are An=%f\n",An);
 }
 	return 0;
 }
