@@ -1,0 +1,25 @@
+#include<stdio.h>
+int main()
+{
+	int i,j;
+	int mat1[3][5],tmat[5][3];
+	printf("enter the first matrix");
+	for(i=0;i<3;i++)
+	{
+	for(j=0;j<5;j++)
+	{
+		scanf("%d",&mat1[i][j]);
+		}	
+	}
+
+for(i=0;i<5;i++)
+{
+	for(j=0;j<3;j++)
+	{
+		tmat[i][j]=mat1[j][i];
+		printf("%d\t",tmat[i][j]);
+	}
+	printf("\n");
+		}
+		return 0;
+}
