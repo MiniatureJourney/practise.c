@@ -1,0 +1,21 @@
+#include<stdio.h>
+	int nn(int);
+	int main()
+	{
+	int n,i;
+	printf("enter the last number of series");
+	scanf("%d",&n);
+for(i=1;i<=n;i++)
+nn(i);
+printf("%d",nn(n));
+	return 0;
+	}
+int nn(int n)
+{
+	int s;
+	if(n==1)
+	return n;
+	else
+	return n+nn(n-1);
+	
+}
